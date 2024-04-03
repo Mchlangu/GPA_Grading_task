@@ -8,7 +8,7 @@ const absent = 0;
 
 if(gpa >= dist){
     console.log("DISTINCTION RIGHT THERE!" + gpa);
-}else if(gpa >= 70 && gpa <dist ){
+}else if(gpa >= exp && gpa <dist ){
     console.log("EXEMPTION RIGHT HERE!" + gpa)
 }else if(gpa >=avg && gpa < exp ){
     console.log("Passed but work harder: " + gpa)
