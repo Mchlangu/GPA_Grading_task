@@ -19,4 +19,13 @@ console.log(typeof faculty);
 console.log(faculty.toUpperCase())
 
 
+let learners  = new Array();
+
+ learners[0] = 1;
+ learners[1] = 2;
+ learners[2] = 3;
+ learners[3] = 4;
+ learners[4] = 5;
+
+ console.log("Total number of learners: ", learners.length);
 
