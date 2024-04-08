@@ -10,14 +10,13 @@ courses.push("C++", "Flutter", "C#", "Python");
 console .log("New semester courses " + courses)
 
 console.log(`Array is a method ${courses instanceof Array}`)
-    
+
 let faculty = courses.toString();
 
 console.log(`courses an ${faculty instanceof Array}`);
 console.log("Courses as String " + faculty)
 console.log(typeof faculty);
 console.log(faculty.toUpperCase())
-
 
 let learners  = new Array();
 
@@ -28,4 +27,3 @@ let learners  = new Array();
  learners[4] = 5;
 
  console.log("Total number of learners: ", learners.length);
-

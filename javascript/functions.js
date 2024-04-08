@@ -18,6 +18,7 @@ function getQuotient(x, y){
     return x / y;
 }
 
+
 a = parseFloat(prompt("Enter a number: "));
 b = parseFloat(prompt("Enter another number: "));
 op = prompt('Enter operator (either  +, -, *, or /) : ');
